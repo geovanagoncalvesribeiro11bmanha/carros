@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: #e28625;
+    --green: #006971;
+    --offwhite: rgba(225,225,225, 0.75);
+    --white: #fff;
+    --grey:#f2f2f2;
+    --dark-green: #004140;
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--grey);
+    font-size: 1.6rem;
+    display: flex ;
+    justify-content: center;
+    align-self: center;
+    height: 100vh;
+    
+}
+
+.sedans {
+    background: var(--orange);
+}
+
+.suvs {
+    background: var(--green);
+}
+
+.luxuosos {
+    background: var(--dark-green);
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 92rem;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Big Shoulders Display";
+}
+
+p, a {
+    font-family: "Lexend Deca";
+}
